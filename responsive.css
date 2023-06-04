@@ -1,0 +1,38 @@
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav li {
+  margin: 10px 0;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+}
+
+.content {
+  text-align: center;
+}
+
+.options {
+  flex: 1;
+  margin: 10px;
+}
+
+.testimonial img {
+  width: 50%;
+}
+
+.test-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.test-column {
+  width: 50%;
+  margin: 10px;
+}
